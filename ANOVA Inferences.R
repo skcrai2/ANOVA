@@ -30,7 +30,7 @@ boxplot(b1,b2,b3,b11,b22,b33, horizontal=TRUE)
 b111<-(b1-mean(b1))/4+mean(b1)
 b222<-(b2-mean(b2))/4+mean(b2)
 b333<-(b3-mean(b3))/4+mean(b3)
-boxplot(b1,b2,b3,b11,b22,b33,b111,b222,b333 horizontal=TRUE)
+boxplot(b1,b2,b3,b11,b22,b33,b111,b222,b333, horizontal=TRUE)
 
 #The differences between the means appear even more evident when you contract the databy a factor of 15
 
